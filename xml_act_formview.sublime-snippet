@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.action.act_window.view" id="act_${1:model_id}_view1">
+    <field name="sequence" eval="10"/>
+    <field name="view" ref="$1_list_view"/>
+    <field name="act_window" ref="act_$1"/>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_act_formview</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Tryton: Action Window List View record</description>
+</snippet>

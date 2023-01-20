@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def write(cls, *args):
+    actions = iter(args)
+    args = []
+    for records, values in zip(actions, actions):
+        ${2:values['example'] = True  # add/del/modify items from values}
+        args.extend((records, values))
+    super().write(*args)
+]]></content>
+	<tabTrigger>tryton_write</tabTrigger>
+	<scope>source.python </scope>
+	<description>Tryton: write() reimplementation</description>
+</snippet>

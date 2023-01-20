@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<form ${1: col="${2}"}>
+	${3}
+</form>
+]]></content>
+	<tabTrigger>tryton_view_form</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Tryton: Form view</description>
+</snippet>

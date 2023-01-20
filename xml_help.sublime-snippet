@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<!--
+Sublime Tryton Snippets - XML help
+    1. General
+        tryton_header - 
+        tryton_help - This help snippet.    
+
+    2. View records
+        tryton_record_form - 
+        tryton_record_inform - 
+        tryton_record_list - 
+        tryton_record_inlist - 
+        tryton_record_tree - 
+
+    3. Action records
+        tryton_act_window - 
+        tryton_act_formview -
+
+    4. Complete view records with actions
+        tryton_complete_view -
+    
+    5. Data
+        tryton_record_data - 
+    
+    6. Views general
+        tryton_view_header - 
+
+    7. Tree/List views
+        tryton_view_field - 
+        tryton_view_button -    
+
+    8. Form views
+        tryton_view_form - 
+        tryton_view_form_field - 
+        tryton_view_label - 
+        tryton_view_field - 
+        tryton_view_button -  
+-->
+]]></content>
+	<tabTrigger>tryton_help</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Tryton XML help</description>
+</snippet>

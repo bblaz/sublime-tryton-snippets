@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:fieldname} = fields.Boolean('${2:Field Title}'${3:, readonly=True}${6}${4:, help='${5}'})
+]]></content>
+	<tabTrigger>tryton_fields.Boolean</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: fields.Boolean()</description>
+</snippet>

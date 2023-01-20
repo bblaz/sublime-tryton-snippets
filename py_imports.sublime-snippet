@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+from trytond.model import ModelSQL, ModelView, fields
+from trytond.pyson import Eval
+from trytond.transaction import Transaction
+from trytond.pool import Pool, PoolMeta
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_imports</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description>Tryton: common imports</description>
+</snippet>

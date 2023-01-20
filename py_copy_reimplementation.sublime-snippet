@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def copy(cls, ${1:records}, default=None):
+    if default is None:
+        default = {}
+    default = default.copy()
+    default.setdefault('${3}', None)
+    return super().copy($1, default=default)
+]]></content>
+	<tabTrigger>tryton_copy</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: copy() reimplementation</description>
+</snippet>

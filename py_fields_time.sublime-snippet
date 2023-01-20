@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:fieldname} = fields.Time("${2:Field name}"${3:, ${4:format='%H:%M'}})
+]]></content>
+	<tabTrigger>tryton_fields.Time</tabTrigger>
+	<scope>source.python </scope>
+	<description>Tryton: fields.Time()</description>
+</snippet>

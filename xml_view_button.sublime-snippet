@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<button name="${1:name}"${2: string="${3:label}"}${4: icon="${5:tryton-executable}"}${6: confirm="${7:Are you sure?}"}${8: colspan="${9:2}"}${10: states="${11}"}${12: help="${13}"}/>
+]]></content>
+	<tabTrigger>tryton_view_button</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Tryton: View button</description>
+</snippet>

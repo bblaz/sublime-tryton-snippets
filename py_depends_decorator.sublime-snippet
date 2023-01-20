@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@fields.depends(${1:fields})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_depends</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python </scope>
+	<description>Tryton: decorator for on_change/_with functions to specify which fields supply to the function in self object</description>
+</snippet>

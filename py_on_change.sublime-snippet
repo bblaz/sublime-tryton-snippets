@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@fields.depends(${2:used fields})
+def on_change_${1:fieldname}(self):${7}
+    return ${3:{
+        ${4:'${5:res_fieldname}': ${6},}
+        }}
+]]></content>
+	<tabTrigger>tryton_on_change</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: function to compute values of fields when field change value</description>
+</snippet>

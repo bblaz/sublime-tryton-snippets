@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def create(cls, vlist):
+	${3:for vals in vlist:
+		}
+	${2:return} super().create(vlist)
+]]></content>
+	<tabTrigger>tryton_create</tabTrigger>
+	<scope>source.python </scope>
+	<description>Tryton: create() reimplementation</description>
+</snippet>

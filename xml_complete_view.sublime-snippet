@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.ui.view" id="${1:model_id}_view_form">
+    <field name="model">${2:model_name}</field>
+    <field name="type">form</field>
+    <field name="name">$1_form</field>
+</record>
+<record model="ir.ui.view" id="$1_view_list">
+    <field name="model">$2</field>
+    <field name="type">tree</field>
+    <field name="name">$1_list</field>
+</record>
+<record model="ir.action.act_window" id="act_$1">
+    <field name="name">${3:plural_title}</field>
+    <field name="res_model">$2</field>
+    <field name="search_value"></field>
+    <field name="domain"></field>
+    <field name="context"></field>
+</record>
+<record model="ir.action.act_window.view" id="act_$1_view1">
+    <field name="sequence" eval="10"/>
+    <field name="view" ref="$1_view_list"/>
+    <field name="act_window" ref="act_$1"/>
+</record>
+<record model="ir.action.act_window.view" id="act_$1_view2">
+    <field name="sequence" eval="20"/>
+    <field name="view" ref="$1_view_form"/>
+    <field name="act_window" ref="act_$1"/>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_complete_view</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Tryton: Complete view</description>
+</snippet>

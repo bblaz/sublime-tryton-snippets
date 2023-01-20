@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:fieldname} = fields.Date('${2:Field Title}'${3:, required=True}${4:, readonly=True}${7}${5:, help='${6}'})
+]]></content>
+	<tabTrigger>tryton_fields.Date</tabTrigger>
+	<scope>source.python </scope>
+	<description>Tryton: fields.Date()</description>
+</snippet>

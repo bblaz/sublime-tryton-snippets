@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+from trytond.pyson import Bool, If, In, Equal, Eval, Get, Not
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_import_pyson</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description>Tryton: Pyson classes import</description>
+</snippet>

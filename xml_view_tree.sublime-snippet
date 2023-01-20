@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<tree>
+	${1}
+</tree>
+]]></content>
+	<tabTrigger>tryton_view_tree</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Tryton: Tree view</description>
+</snippet>

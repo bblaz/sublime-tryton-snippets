@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@fields.depends(${2:trigger/used fields})
+def on_change_with_${1:fieldname}(self, name=None):${4}
+    return ${3}
+]]></content>
+	<tabTrigger>tryton_on_change_with</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: function to compute functional field and value of field when others change value</description>
+</snippet>

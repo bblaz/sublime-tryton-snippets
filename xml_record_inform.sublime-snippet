@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.ui.view" id="${1:model_id}_view_form">
+    <field name="model">${2:model.name}</field>
+    <field name="inherit" ref="${3:inherit_model}.${4:$1_view_form}"/>
+    <field name="name">$1_form</field>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_record_inform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Tryton: Record for Inherited Form View</description>
+</snippet>

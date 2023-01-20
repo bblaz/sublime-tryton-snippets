@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def __setup__(cls):
+    super().__setup__()
+    ${1}
+]]></content>
+	<tabTrigger>tryton_setup</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: setup() reimplementation</description>
+</snippet>

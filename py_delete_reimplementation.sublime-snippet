@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def delete(cls, ${1:records}):
+    ${3}
+    super().delete($1)
+]]></content>
+	<tabTrigger>tryton_delete</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: delete() reimplementation</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+from trytond.model import ModelSQL, ModelView, fields
+
+
+class ${1:ClassName}(ModelSQL, ModelView):
+    """${2:Model Title}"""
+    __name__ = '${3:model.name}'
+
+    ${4}
+]]></content>
+	<tabTrigger>tryton_class</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: New model</description>
+</snippet>

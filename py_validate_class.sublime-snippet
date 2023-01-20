@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+@classmethod
+def validate(cls, ${1:records}):
+    super(${2:ClassName}, cls).validate($1)
+    cls.check_${4:validation}($1)
+
+@classmethod
+def check_$4(cls, $1):
+    ${5}
+]]></content>
+	<tabTrigger>tryton_validate.class</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: validate() classmethod validation</description>
+</snippet>

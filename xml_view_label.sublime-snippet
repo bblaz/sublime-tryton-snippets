@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<label name="${1:fieldname}"/>
+]]></content>
+	<tabTrigger>tryton_view_label</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Tryton: View label</description>
+</snippet>

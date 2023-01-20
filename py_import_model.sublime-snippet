@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+from trytond.model import Model, ModelSQL, ModelView, Workflow, fields
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_import_model</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description>Tryton: model classes import</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Date = Pool().get('ir.date')
+today = Date.today()
+]]></content>
+	<tabTrigger>tryton_today</tabTrigger>
+	<scope>source.python</scope>
+	<description>Tryton: Today</description>
+</snippet>

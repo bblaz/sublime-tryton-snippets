@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:fieldname} = fields.Text('${2:Field Title}'${3:, translate=True}${4:, size=${5}}${6:, required=True}${7:, readonly=True}${10}${8:, help='${9}'})
+]]></content>
+	<tabTrigger>tryton_fields.Text</tabTrigger>
+	<scope>source.python </scope>
+	<description>Tryton: fields.Text()</description>
+</snippet>
