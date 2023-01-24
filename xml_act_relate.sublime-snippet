@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.action.act_window" id="act_${1:model_id}">
+  <field name="name">${2:plural_title}</field>
+  <field name="res_model">${3:model_name}</field>
+  <field name="domain"
+      eval="[
+        If(
+          Eval('active_ids', []) == [Eval('active_id')],
+            ('${4:relation_field}', '=', Eval('active_id')),
+            ('$4', 'in', Eval('active_ids'))
+            )]"
+      pyson="1"
+      />
+</record>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_act_relate</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

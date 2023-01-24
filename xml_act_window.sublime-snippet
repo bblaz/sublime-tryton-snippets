@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.action.act_window" id="act_${1:model_id}">
+    <field name="name">${3:plural_title}</field>
+    <field name="res_model">$2</field>
+    <field name="search_value"></field>
+    <field name="domain"></field>
+    <field name="context"></field>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_act_window</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

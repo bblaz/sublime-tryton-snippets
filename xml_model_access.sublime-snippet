@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.model.access" id="acl_${1:model_id}">
+    <field name="model" search="[('model', '=', '${2:model_name}')]"/>
+    ${3:<field name="group" ref="${4:access_group}"/>}
+    <field name="perm_read" eval="${5:False}"/>
+    <field name="perm_create" eval="${6:False}"/>
+    <field name="perm_write" eval="${7:False}"/>
+    <field name="perm_delete" eval="${8:False}"/>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_model_access</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>
