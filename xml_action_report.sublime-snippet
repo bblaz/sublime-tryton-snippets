@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.action.report" id="report_${1:model_id}">
+  <field name="name">${2:title}</field>
+  <field name="model">${3:model_name}</field>
+  <field name="report_name">${3}.${4:report_name}</field>
+  <field name="report">${5:module_name}/${6:report_file}</field>
+  <field name="template_extension">${7:file_extension}</field>
+</record>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tryton_action_report</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>
